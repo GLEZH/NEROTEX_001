@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>C:/Users/Povelitel/Desktop/14.png</file>
+        <file>C:/Users/Povelitel/Desktop/15.png</file>
+        <file>C:/Users/Povelitel/Desktop/sign.png</file>
+        <file>C:/Users/Povelitel/Desktop/pb2.png</file>
+        <file>C:/Users/Povelitel/Desktop/pb_23.png</file>
+        <file>C:/Users/Povelitel/Desktop/background-1.png</file>
+        <file>C:/Users/Povelitel/Desktop/background-1w.png</file>
+        <file>C:/Users/Povelitel/Desktop/set.png</file>
+        <file>C:/Users/Povelitel/Desktop/1234.png</file>
+        <file>C:/Users/Povelitel/Desktop/12345.png</file>
+        <file>C:/Users/Povelitel/Desktop/123456.png</file>
+        <file>C:/Users/Povelitel/Desktop/1234567.png</file>
+    </qresource>
+</RCC>

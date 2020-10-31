@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SignIn</class>
+ <widget class="QWidget" name="SignIn">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1093</width>
+    <height>2296</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pbEnter">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>1680</y>
+     <width>781</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-image: url(:/res/C:/Users/Povelitel/Desktop/pb2.png);
+     background-color: red;
+     border-style: outset;
+     border-width: 5px;
+     border-radius: 100px;
+     border-color: beige;
+     font: bold 14px;
+     min-width: 10em;
+     padding: 6px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbGos">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>1950</y>
+     <width>791</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-image:url(:/res/C:/Users/Povelitel/Desktop/pb_23.png);
+     background-color: red;
+     border-style: outset;
+     border-width: 5px;
+     border-radius: 100px;
+     border-color: beige;
+     font: bold 14px;
+     min-width: 10em;
+     padding: 6px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1101</width>
+     <height>2301</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGraphicsView{background-image: url(:/res/C:/Users/Povelitel/Desktop/sign.png)}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>960</y>
+     <width>351</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>36</pointsize>
+    </font>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:72pt;&quot;&gt;Логин&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="text">
+    <string>Логин:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>1230</y>
+     <width>461</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>36</pointsize>
+    </font>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:72pt;&quot;&gt;Логин&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="text">
+    <string>Пароль:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leLogin">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>1000</y>
+     <width>441</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>admin</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lePassword">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>1270</y>
+     <width>441</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>36</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>admin</string>
+   </property>
+  </widget>
+  <zorder>graphicsView</zorder>
+  <zorder>pbEnter</zorder>
+  <zorder>pbGos</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>leLogin</zorder>
+  <zorder>lePassword</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

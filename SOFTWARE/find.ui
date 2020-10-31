@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Find</class>
+ <widget class="QWidget" name="Find">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>2085</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QListWidget" name="lwUsers">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>1140</y>
+     <width>521</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QListWidget{background-image: url(:/res/C:/Users/Povelitel/Desktop/set.png)}</string>
+   </property>
+   <property name="selectionMode">
+    <enum>QAbstractItemView::MultiSelection</enum>
+   </property>
+   <property name="sortingEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>1810</y>
+     <width>741</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-image:url(:/res/C:/Users/Povelitel/Desktop/12345.png);
+     background-color: red;
+     border-style: outset;
+     border-width: 5px;
+     border-radius: 100px;
+     border-color: beige;
+     font: bold 14px;
+     min-width: 10em;
+     padding: 6px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leName">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>1570</y>
+     <width>871</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{background-image: url(:/res/C:/Users/Povelitel/Desktop/set.png)}</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1101</width>
+     <height>2141</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>26</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGraphicsView{background-image: url(:/res/C:/Users/Povelitel/Desktop/background-1w.png)}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>261</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-image:url(:/res/C:/Users/Povelitel/Desktop/12345.png)}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>graphicsView</zorder>
+  <zorder>lwUsers</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>leName</zorder>
+  <zorder>pushButton_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
